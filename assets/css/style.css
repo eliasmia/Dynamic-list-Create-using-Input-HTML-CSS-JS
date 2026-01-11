@@ -1,0 +1,75 @@
+/*
+  Project: Dynamic-list-Create-using-Input-HTML-CSS-JS
+  Theme URL: http://eliasmia.com/
+  Author: Md Elias Mia
+  Author URI: http://eliasmia.com/
+  Description: HTML CSS JS
+  Version: 1.0
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #3c35b8;
+  background: linear-gradient(95deg, rgba(57, 57, 230, 1) 0%, rgba(0, 212, 255, 1) 50%,   rgba(60, 53, 184, 1) 100%);
+}
+.container {
+    max-width: 32rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 4rem auto auto auto;
+}
+.inputArea {
+    background-color: #d3d3d5;
+    display: block;
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+.inputArea input:focus, 
+.inputArea input {
+    display: block;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: 1px solid #848487;
+    width: 100%;
+    font-size: 1rem;
+    color: #000;
+    outline: none;
+}
+.inputArea button {
+    background-color: #a5a5a5;
+    display: block;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container h2 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .list {
+    border-top: 1px solid #6363637a;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.container .list ol li {
+    font-size: 1.5rem;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 0.8rem;
+}
